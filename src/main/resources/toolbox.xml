@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toolbox>
+    <tool forceRelative="true" includeRequestParams="true">
+        <key>link</key>
+        <scope>request</scope>
+        <class>com.xingy.framework.directive.LinkTool</class>
+    </tool>
+    <tool>
+        <key>math</key>
+        <scope>application</scope>
+        <class>org.apache.velocity.tools.generic.MathTool</class>
+    </tool>
+    <tool>
+        <key>loop</key>
+        <scope>request</scope>
+        <class>org.apache.velocity.tools.generic.LoopTool</class>
+    </tool>
+    <tool>
+        <key>display</key>
+        <scope>application</scope>
+        <class>org.apache.velocity.tools.generic.DisplayTool</class>
+    </tool>
+    <tool>
+        <key>esc</key>
+        <scope>application</scope>
+        <class>org.apache.velocity.tools.generic.EscapeTool</class>
+    </tool>
+    <tool>
+        <key>number</key>
+        <scope>application</scope>
+        <class>org.apache.velocity.tools.generic.NumberTool</class>
+        <parameter name="format" value="#0.0"/>
+    </tool>
+    <tool>
+        <key>cookie</key>
+        <scope>request</scope>
+        <class>org.apache.velocity.tools.view.CookieTool</class>
+    </tool>
+    <tool>
+        <key>date</key>
+        <scope>application</scope>
+        <class>org.apache.velocity.tools.generic.DateTool</class>
+    </tool>
+
+    <!-- 系统鉴权操作 -->
+    <!--<tool>-->
+        <!--<key>assign</key>-->
+        <!--<scope>application</scope>-->
+        <!--<class>com.xingy.framework.directive.AssignTool</class>-->
+    <!--</tool>-->
+
+    <!-- 登录用户操作 -->
+    <!-- <tool>
+        <key>user</key>
+        <scope>application</scope>
+        <class>com.xingy.framework.directive.UserTool</class>
+    </tool> -->
+
+    <!-- 授权操作 -->
+   <!--  <tool>
+        <key>shiro</key>
+        <scope>application</scope>
+        <class>com.xingy.framework.directive.ShiroTool</class>
+    </tool> -->
+
+</toolbox>

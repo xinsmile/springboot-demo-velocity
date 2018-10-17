@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring: 
+  velocity:  
+     suffix: .html
+     prefix: /
+     cache: true
+     content-type: text/html;charset=UTF-8
+     date-tool-attribute: dateTool
+     number-tool-attribute: numberTool
+     toolbox-config-location: toolbox.xml
+     resource-loader-path: classpath:/templates/
